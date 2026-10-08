@@ -1,0 +1,62 @@
+{
+  "organizations": [
+    {
+      "id": "demo",
+      "name": "AuraMend Demo Business",
+      "website": "https://example.com",
+      "type": "Service Business"
+    }
+  ],
+  "agents": [
+    {
+      "id": "agent_demo",
+      "orgId": "demo",
+      "name": "Aura",
+      "greeting": "Hi! I’m Aura, your AI assistant. How can I help today?",
+      "personality": "Friendly, concise, professional",
+      "color": "#7c5cff",
+      "proactive": true
+    }
+  ],
+  "knowledge": [
+    {
+      "id": "k1",
+      "orgId": "demo",
+      "title": "About AuraMend Demo Business",
+      "content": "We provide professional consultations and appointments. Our team is available Monday through Friday from 9 AM to 6 PM. Consultations start at $99."
+    },
+    {
+      "id": "k2",
+      "orgId": "demo",
+      "title": "Services",
+      "content": "We offer consultations, follow-up sessions, and personalized service plans. Visitors can request an appointment by providing their name, email, preferred date and service."
+    },
+    {
+      "id": "k_bc1a39d4",
+      "orgId": "demo",
+      "title": "Refund policy",
+      "content": "Customers can request a refund within 14 days."
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv_eb14435c",
+      "orgId": "demo",
+      "createdAt": "2026-10-08T20:37:55.829Z",
+      "messages": [
+        {
+          "role": "user",
+          "content": "How much does a consultation cost?",
+          "at": "2026-10-08T20:37:55.829Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Consultations start at $99. If you’d like, I can collect your details so the team can help you book.",
+          "at": "2026-10-08T20:37:55.829Z"
+        }
+      ]
+    }
+  ],
+  "leads": [],
+  "appointments": []
+}
